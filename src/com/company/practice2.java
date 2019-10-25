@@ -12,9 +12,7 @@ public class practice2 {
         System.out.println("Enter 10 elements: ");
         for(int i = 0; i < 10; i++){
             array[i] = scanner.nextInt();
-        }
-        for(int num : array) {
-            sum = sum + num;
+            sum = sum + i;
         }
 
         int average = sum / 10;
